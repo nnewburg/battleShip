@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" type="text/css" href="./style.css">
+
+  <title>A game of BattleShip</title>
+</head>
+<body>
+  <div id="shipsToPlace">
+    <div class="ship">Carrier<img width="20%" height="20%" src="./images/aircraftCarrier.png"></div>
+    <div class="ship">Battleship<img width="20%" height="20%" src="./images/battleShip.jpg"></div>
+    <div class="ship">Cruiser<img width="20%" height="20%" src="./images/cruiser.png"></div>
+    <div class="ship">Submarine<img width="20%" height="20%" src="./images/submarine.png"></div>
+    <div class="ship">Destroyer<img width="20%" height="20%" src="./images/destroyer.png"></div>
+  </div>
+  <div id="placementChoice">
+    <p>Ship Positioning</p>
+    <select id ='shipDirection' name="shipDirection">
+        <option value="vertical">vertical</option>
+        <option value="horizontal">horizontal</option>
+      </select>
+  </div>
+
+  <div id="difficultyChoice">
+    <p>AI difficulty</p>
+    <select id ='aiDifficulty' name="difficulty">
+        <option value="Easy">Easy</option>
+        <option value="hard">Hard</option>
+      </select>
+  </div>
+
+
+  <div id="yAxisOpp">
+    <div class="YAxis">1</div>
+    <div class="YAxis">2</div>
+    <div class="YAxis">3</div>
+    <div class="YAxis">4</div>
+    <div class="YAxis">5</div>
+    <div class="YAxis">6</div>
+    <div class="YAxis">7</div>
+    <div class="YAxis">8</div>
+    <div class="YAxis">9</div>
+    <div class="YAxis">10</div>
+  </div>
+
+    <div id="xAxisOpp">
+    <div class="XAxis">A</div>
+    <div class="XAxis">B</div>
+    <div class="XAxis">C</div>
+    <div class="XAxis">D</div>
+    <div class="XAxis">E</div>
+    <div class="XAxis">F</div>
+    <div class="XAxis">G</div>
+    <div class="XAxis">H</div>
+    <div class="XAxis">I</div>
+    <div class="XAxis">J</div>
+  </div>
+
+
+
+  <h1 id="OppTitle">Opponents Board</h1>
+
+  <div id="playBoardOpp">
+
+
+  </div>
+    <div id="yAxisPly">
+    <div class="YAxis">1</div>
+    <div class="YAxis">2</div>
+    <div class="YAxis">3</div>
+    <div class="YAxis">4</div>
+    <div class="YAxis">5</div>
+    <div class="YAxis">6</div>
+    <div class="YAxis">7</div>
+    <div class="YAxis">8</div>
+    <div class="YAxis">9</div>
+    <div class="YAxis">10</div>
+  </div>
+
+  <h1 id="PlyTitle">Your Board</h1>
+  <div id="playBoardPlayer">
+
+  </div>
+
+      <div id="xAxisPly">
+    <div class="XAxis">A</div>
+    <div class="XAxis">B</div>
+    <div class="XAxis">C</div>
+    <div class="XAxis">D</div>
+    <div class="XAxis">E</div>
+    <div class="XAxis">F</div>
+    <div class="XAxis">G</div>
+    <div class="XAxis">H</div>
+    <div class="XAxis">I</div>
+    <div class="XAxis">J</div>
+  </div>
+
+
+
+</body>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="./main.js"></script>
+  <script type="text/javascript" src="./shipPlacement.js"></script>
+  <script type="text/javascript" src="./aiPlacement.js"></script>
+</html>
