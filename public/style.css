@@ -1,0 +1,143 @@
+body{
+  background-color: #A8C6C5;
+
+}
+
+#difficultyChoice{
+  position: absolute;
+  top: 350px;
+  left: 25px;
+  background-color: white;
+  border: 5px black solid;
+}
+
+#startGame{
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+#shipsToPlace{
+  background-color: white;
+  border: 4px black solid;
+  padding: 5px;
+  width: 160px;
+  height: 160px;
+  position: absolute;
+}
+
+.ship{
+  height: 20%;
+}
+
+#placementChoice{
+  position: absolute;
+  top: 200px;
+  left: 25px;
+  background-color: white;
+  border: 5px black solid;
+  padding: 20px;
+}
+
+#playBoardOpp{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  width: 350px;
+  height: 325px;
+  background-color: #133E8A;
+  position: absolute;
+  left: 350px;
+  top: 150px;
+  border: 4px black solid;
+}
+
+#playBoardPlayer{
+  display: grid;
+   grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  width: 350px;
+  height: 325px;
+  background-color: #138A88;
+  position: absolute;
+  left: 800px;
+  top: 150px;
+  border: 4px black solid;
+}
+
+
+.boardTileOpp{
+  border: 1px black solid;
+}
+.boardTilePly{
+  border: 1px black solid;
+}
+
+
+
+#OppTitle{
+  position: absolute;
+  background-color: red;
+  top: 75px;
+  left: 375px;
+}
+
+#PlyTitle{
+  position: absolute;
+  background-color: red;
+  top: 75px;
+  left: 875px;
+}
+
+#yAxisOpp{
+  background-color: gray;
+  color: black;
+  position: absolute;
+  top: 150px;
+  left: 330px;
+  height: 325px;
+}
+
+.YAxis{
+  box-sizing: border-box;
+  position: relative;
+  height: 10%;
+  border: 1px black solid;
+}
+
+#yAxisPly{
+  background-color: gray;
+  color: black;
+  position: absolute;
+  top: 150px;
+  left: 780px;
+  height: 325px;
+}
+
+#xAxisOpp{
+  background-color: gray;
+  color: black;
+  position: absolute;
+  top: 495px;
+  left: 360px;
+  width: 350px;
+}
+
+.XAxis{
+  text-align: center;
+  display: inline-block;
+  width: 8.34%;
+  border: 1px black solid;
+}
+
+#xAxisPly{
+  background-color: gray;
+  color: black;
+  position: absolute;
+  top: 495px;
+  left: 803px;
+  width: 350px;
+}
