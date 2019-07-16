@@ -7,7 +7,7 @@ A user places their ships and then clicks on a button to take turns with an oppo
 
 ## Missing Features
 
-- There is a bug where AI may place their ships in a way the end and beginning or 2 seperate rows may occupy the same ship
+- There is a bug where AI may place their ships in a way the end and beginning of 2 seperate rows may occupy the same ship
 - There is not a functionality to end the game
 - There is not a functionality to announce when a single ship has been sunk
 
