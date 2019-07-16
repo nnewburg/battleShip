@@ -17,12 +17,10 @@ A user places their ships and then clicks on a button to take turns with an oppo
 
 ## Screenshots
 
-!["Screenshot of Resource Wall"](https://github.com/nnewburg/resourceWall/blob/master/docs/resourceWall1.png?raw=true)
-!["Screenshot of Resource Wall"](https://github.com/nnewburg/resourceWall/blob/master/docs/resourceWall2.png?raw=true)
-!["Screenshot of Resource Wall"](https://github.com/nnewburg/resourceWall/blob/master/docs/resourceWall3.png?raw=true)
-!["Screenshot of Resource Wall"](https://github.com/nnewburg/resourceWall/blob/master/docs/resourceWall4.png?raw=true)
-!["Screenshot of Resource Wall"](https://github.com/nnewburg/resourceWall/blob/master/docs/resourceWall5.png?raw=true)
-!["Screenshot of Resource Wall"](https://github.com/nnewburg/resourceWall/blob/master/docs/resourceWall6.png?raw=true)
+!["Screenshot of BattleShip"](https://github.com/nnewburg/battleShip/blob/master/docs/bShip1.png?raw=true)
+!["Screenshot of BattleShip"](https://github.com/nnewburg/battleShip/blob/master/docs/bShip2.png?raw=true)
+!["Screenshot of BattleShip"](https://github.com/nnewburg/battleShip/blob/master/docs/bShip3.png?raw=true)
+!["Screenshot of BattleShip"](https://github.com/nnewburg/battleShip/blob/master/docs/bShip4.png?raw=true)
 
 ## Dependencies
 
