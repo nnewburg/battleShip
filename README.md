@@ -3,7 +3,7 @@ Battleship
 
 Battleship is a classic board game created with HTML, CSS, and Jquery
 
-A user places their ships and then clicks on a button to take turns with an opponent, a red square is a hit while a green square is a miss, for the opponents board a grey square is a miss while a red square is a hit. The game offers two difficulty levels; easy and hard.
+A user places their ships by clicking on them and then chhosing a starting position on the board and then clicks on a button to take turns with an opponent, a red square is a hit while a green square is a miss, for the opponents board a grey square is a miss while a red square is a hit. The game offers two difficulty levels; easy and hard.
 
 ## Missing Features
 
